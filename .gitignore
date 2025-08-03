@@ -1,0 +1,66 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+local_settings.py
+
+# VSCode / PyCharm IDE
+.vscode/
+.idea/
+
+# Mac/Linux system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Django migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# dotenv
+.env
+.env.*
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# node_modules (if using frontend like React/Vue in same repo)
+node_modules/
